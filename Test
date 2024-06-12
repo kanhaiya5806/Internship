@@ -1,0 +1,5 @@
+def Test(a,b):
+    return b if a==0
+    else Test(b%a,a)
+print(Test(30,75))
+
